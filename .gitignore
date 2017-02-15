@@ -1,0 +1,37 @@
+# Python & Jupyter Notebook
+.ipynb_checkpoints
+*.pyc
+
+# AdvancedFootballAnalytics
+2002-2012(sep_tabs).xlsx
+2002-2012.xlsx
+AFA_2002-2012_Total.csv
+2002_nfl_pbp_data.csv
+2003_nfl_pbp_data.csv
+2004_nfl_pbp_data.csv
+2005_nfl_pbp_data.csv
+2006_nfl_pbp_data.csv
+2007_nfl_pbp_data.csv
+2008_nfl_pbp_data.csv
+2009_nfl_pbp_data.csv
+2010_nfl_pbp_data.csv
+2011_nfl_pbp_data.csv
+2012_nfl_pbp_data.csv
+
+# Horowitz
+NFLPlaybyPlay2015.csv
+
+# NFLSavant
+pbp-2014.csv
+pbp-2015.csv
+pbp-2016.csv
+players_2013-12-12.csv
+Savant_2014-2016.xlsx
+
+# SpreadsheetSports
+2013_NFL_Play-by-Play_Data.xlsx
+2014_NFL_Play-by-Play_Data.xlsx
+2015_NFL_Play-by-Play_Data.xlsx
+2016_NFL_Play-by-Play_Data.xlsx
+SpreadsheetSports-2013-2016partial.xlsx
+Spreadsheet-Sports-Public.zip
