@@ -2,6 +2,9 @@
 .ipynb_checkpoints
 *.pyc
 
+# NFLScrapR
+/nflscrapR/
+
 # AdvancedFootballAnalytics
 2002-2012(sep_tabs).xlsx
 2002-2012.xlsx
