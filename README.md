@@ -142,7 +142,7 @@ Interestingly, many of the things that announcers like to hype just didn't matte
 * Monday Night Football!!! So what?
 * PLAYOFFS!!!!! Meh.
 
-![image](images/VanillaFeatureImportances.png)
+![image](images\VanillaFeatureImportances.png)
 
 #### Fourth Downs
 Fourth down plays represent a tremendous "make or break" opportunities for both the offensive and defensive teams. Obviously, the down number is now irrelevant to the model. Here, I achieved a test split accuracy of 82%, which also compared favorably to the naive method of always picking the majority class (Pass, at 62.9%). As expected from the broader analysis, the most important features were YdsToGo (39%), TimeSecs (14%), ScoreDiff (13%), and DefTeamScore (11%).
