@@ -142,12 +142,12 @@ Interestingly, many of the things that announcers like to hype just didn't matte
 * Monday Night Football!!! So what?
 * PLAYOFFS!!!!! Meh.
 
-![image](/images/VanillaFeatureImportances.png)
+![image](https://github.com/MMcCaffrey/GalvanizeCapstone/blob/master/Images/VanillaFeatureImportances.png)
 
 #### Fourth Downs
 Fourth down plays represent a tremendous "make or break" opportunities for both the offensive and defensive teams. Obviously, the down number is now irrelevant to the model. Here, I achieved a test split accuracy of 82%, which also compared favorably to the naive method of always picking the majority class (Pass, at 62.9%). As expected from the broader analysis, the most important features were YdsToGo (39%), TimeSecs (14%), ScoreDiff (13%), and DefTeamScore (11%).
 
-![image](/images/FourthDownFeatureImportances.png)
+![image](https://github.com/MMcCaffrey/GalvanizeCapstone/blob/master/Images/FourthDownFeatureImportances.png)
 
 #### Two-Point Conversions
 Two-point conversions also represent opportunities for both teams. These plays typically happen when the score is relatively close. On average, the offensive team trails by 3.1 points when attempting a two-point conversion. Unfortunately, the model largely picked the majority class everytime (Pass, at 73.6%). So that's disappointing.
@@ -155,7 +155,7 @@ Two-point conversions also represent opportunities for both teams. These plays t
 
 #### Season-by-Season
 
-![image](/images/AccuracyPassPctbySeason.png)
+![image](images/AccuracyPassPctbySeason.png)
 
 #### Team-by-Team
 Examining each team separately yields a fairly constant test accuracy, despite variations in passing percentage.
