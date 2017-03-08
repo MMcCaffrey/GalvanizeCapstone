@@ -1,7 +1,7 @@
 # An Exploratory Analysis of NFL Play-by-Play Data, 2009-2016
 Michael K. McCaffrey, MSF, CFA, CAIA  
 mkm1836@gmail.com  
-Updated: March 6, 2017
+Updated: March 8, 2017
 ****
 This is my Capstone project for the [Galvanize Data Science Immersive](https://new.galvanize.com/austin/data-science) program, Austin December 2016 cohort.  
 Expected graduation: March 10, 2017.
@@ -134,7 +134,13 @@ Looking at 25 trees, with 10 observations per leaf, and 10% of features was the 
 #### Vanilla plays
 After narrowing the dataset down to just passing and running plays, the remaining dataset contained 269,745 observations, with 58.5% passes and 41.5% runs. I excluded play types which I felt were pretty easy to predict and/or relatively rare: field goals (2.7%), punts (6.7%), and QB kneels (1.1%). I also excluded QB Spikes, which are technically an incomplete pass. We could debate how easily predictable these situations are, but truthfully, spikes are relatively uncommon (0.2% of plays), and their execution is too quick to allow much defensive opportunity.  
 
-I achieved 69% accuracy on the test set. This compares favorably to the 58.5% one would get from a simple "Alway Pass" prediction, but far from stellar. The most important features were Down (31%), YdsToGo (25%), TimeSecs (17%), and ScoreDiff (12%). 
+I achieved 69% accuracy on the test set. This compares favorably to the 58.5% one would get from a simple "Alway Pass" prediction, but far from stellar. The most important features were Down (31%), YdsToGo (25%), TimeSecs (17%), and ScoreDiff (12%).  
+
+Interestingly, many of the things that announcers like to hype just didn't matter: 
+* Late in the season? Pfffft.
+* Playing at home? Whatevs.
+* Monday Night Football!!! So what?
+* PLAYOFFS!!!!! Meh.
 
 ![image](images/VanillaFeatureImportances.png)
 
@@ -149,16 +155,20 @@ Two-point conversions also represent opportunities for both teams. These plays t
 
 #### Season-by-Season
 
-
+![image](images/AccuracyPassPctbySeason.png)
 
 #### Team-by-Team
+Examining each team separately yields a fairly constant test accuracy, despite variations in passing percentage.
 
-
-#### Each Team over Each Season
-
-
-
-### Future Work
+![image](images/AccuracyPassPctbyTeam.png)
+.  
+.  
+.  
+### OK, so what else could we do with this dataset in the future?
 * Add coaching data (head coach, offensive & defensive coordinators).
+* Look at each team by each down, e.g., Dallas on 1st down.
+* Add some recent event functionality.
+    * What happens on the play following a sack?
+    * How do number of prior interceptions and/or fumbles in a game affect playcalling?
 
 
