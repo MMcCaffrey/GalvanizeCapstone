@@ -155,12 +155,12 @@ Two-point conversions also represent opportunities for both teams. These plays t
 
 #### Season-by-Season
 
-![image](images/AccuracyPassPctbySeason.png)
+![image](https://github.com/MMcCaffrey/GalvanizeCapstone/blob/master/Images/AccuracyPassPctbySeason.png)
 
 #### Team-by-Team
 Examining each team separately yields a fairly constant test accuracy, despite variations in passing percentage.
 
-![image](/images/AccuracyPassPctbyTeam.png)
+![image](https://github.com/MMcCaffrey/GalvanizeCapstone/blob/master/Images/AccuracyPassPctbyTeam.png)  
 .  
 .  
 .  
